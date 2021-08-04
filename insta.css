@@ -63,6 +63,7 @@ body{
 
 .group:nth-child(1) {
     min-width: 19rem;
+    margin-bottom: 0.5rem;
 
 }
 
@@ -74,7 +75,7 @@ body{
     justify-content: center;    
     border-radius: 50%;
     overflow: hidden;
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
 }
 .profile-photo img {
     height: 150px;
@@ -148,7 +149,7 @@ body{
  }
 
  @media (max-width: 650px) {
-     .body {
+     body {
          background-color: #ffffff;
      }
      .instagram-wrapper{
